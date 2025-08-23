@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
+    <title>Accesories | OfficeRoom</title>
+</head>
+
+<body>
+    <header>
+        <a href="OfficeRoom.html" class="animated-image"><img src="images/71AdfM+wxxL.jpg" alt="image" width="300"
+                height="200"></a>
+        <h1><a href="OfficeRoom.html" class="heading-link">OfficeRoom</a></h1>
+        <a id="top"></a>
+        <nav><a href="table.html#top" target="_self">Tables</a><a href="chair.html#top">Chairs</a><a
+                href="lamp.html#top">Desk Lamps</a><a href="light.html#top">Lights</a><a
+                href="wallpaper.html#top">Wallpapers</a><a href="showpiece.html#top">Show-Pieces</a><a
+                href="accesories.html#top">Accesories</a><a href="beanbag.html#top">Beanbags</a><a
+                href="custom.html#top" title="Build Your Own Office Room">Custom</a>
+        </nav>
+    </header>
+
+    <main id="main" class="main-content">
+        <div class="main-icons">
+            <a href="OfficeRoom.html" class="home-icon"><img src="images/icons/home.png" width="30" height="30"
+                    alt="home"></a>
+            <a href="#top" class="up-icon"><img src="images/icons/up.png" width="30" height="30" alt="top"></a>
+            <a href="cart.html" class="cart-icon">
+                <img src="images/icons/cart.png" width="30" height="30" alt="cart" title="Go to Cart">
+                <span id="cart-count" class="cart-count-bubble">0</span>
+            </a>
+        </div>
+
+        <section class="dropdown-section">
+            <h2>Search Accesories</h2>
+            <div class="dropdown">
+                <form action="#grid" method="get" class="search-form"><!--# sends the input to the current page-->
+                    <input type="text" name="search" placeholder="Type product name..." list="product-list"
+                        class="custom-input" />
+                    <button type="submit" class="custom-button">Search</button>
+                    <datalist id="product-list">
+                        <option value="Desk Organizers"></option>
+                        <option value="Pen Holders"></option>
+                        <option value="Cable Management"></option>
+                        <option value="Mouse Pads"></option>
+                        <option value="Monitor Stands"></option>
+                        <option value="Whiteboards"></option>
+                        <option value="Foot Rests"></option>
+                        <option value="Phone Stands"></option>
+                    </datalist>
+                </form>
+            </div>
+        </section>
+
+        <!-- <section class="dropdown-section">
+            <h2>Select Category</h2>
+            <div class="dropdown">
+                <select name="Accessory Categories">
+                    <option value="" disabled selected>Select an item</option>
+                    <option value="Desk Organizers">Desk Organizers</option>
+                    <option value="Pen Holders">Pen Holders</option>
+                    <option value="Cable Management">Cable Management</option>
+                    <option value="Mouse Pads">Mouse Pads</option>
+                    <option value="Monitor Stands">Monitor Stands</option>
+                    <option value="Whiteboards">Whiteboards</option>
+                    <option value="Foot Rests">Foot Rests</option>
+                    <option value="Phone Stands">Phone Stands</option>
+                </select>
+            </div>
+        </section> -->
+
+        <div class="category">
+            <h2>Categories</h2>
+            <p>Select accessories that add the perfect finishing touch!</p>
+        </div>
+        <div class="product-grid" id="grid">
+            <div class="accessory">
+                <h3>Desk Organizers</h3><a href="#top"><img src="images/Accesories/deskorganizers.jpg"
+                        alt="Desk Organizers" width="300" height="300" title="Search Desk Organizers"></a>
+            </div>
+            <div class="accessory">
+                <h3>Pen Holders</h3><a href="#top"><img src="images/Accesories/penholders.jpg" alt="Pen Holders"
+                        width="300" height="300" title="Search Pen Holders"></a>
+            </div>
+            <div class="accessory">
+                <h3>Cable Management</h3><a href="#top"><img src="images/Accesories/cablemanagement.jpg"
+                        alt="Cable Management" width="300" height="300" title="Search Cable Management"></a>
+            </div>
+            <div class="accessory">
+                <h3>Mouse Pads</h3><a href="#top"><img src="images/Accesories/mousepads.jpg" alt="Mouse Pads"
+                        width="300" height="300" title="Search Mouse Pads"></a>
+            </div>
+            <div class="accessory">
+                <h3>Monitor Stands</h3><a href="#top"><img src="images/Accesories/monitorstands.jpg"
+                        alt="Monitor Stands" width="300" height="300" title="Search Monitor Stands"></a>
+            </div>
+            <div class="accessory">
+                <h3>Whiteboards</h3><a href="#top"><img src="images/Accesories/whiteboards.jpg" alt="Whiteboards"
+                        width="300" height="300" title="Search Whiteboards"></a>
+            </div>
+            <div class="accessory">
+                <h3>Foot Rests</h3><a href="#top"><img src="images/Accesories/footrests.jpg" alt="Foot Rests"
+                        width="300" height="300" title="Search Foot Rests"></a>
+            </div>
+            <div class="accessory">
+                <h3>Phone Stands</h3><a href="#top"><img src="images/Accesories/phonestands.jpg" alt="Phone Stands"
+                        width="300" height="300" title="Search Phone Stands"></a>
+            </div>
+        </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-icons">
+            <a href="OfficeRoom.html" class="home-icon"><img src="images/icons/home.png" width="30" height="30"
+                    alt="home"></a>
+            <a href="#top" class="up-icon"><img src="images/icons/up.png" width="30" height="30" alt="top"></a>
+        </div>
+        <div class="footer-main" id="foot">
+            <div class="footer-contact">
+                <p>Email: <a href="mailto:support@officeroom.com">support@officeroom.com</a></p>
+                <p>Call: <a href="tel:9399151219">9399151219</a></p>
+            </div>
+
+            <div class="footer-links">
+                <a href="#foot">About</a>
+                <a href="#foot">Contact</a>
+                <a href="#foot">FAQs</a>
+                <a href="#foot">Privacy</a>
+            </div>
+            <p class="copyright-disclaimer">
+                <small>&copy; 2025 OfficeRoom. All rights reserved. This site and its content are protected by
+                    intellectual property laws. Unauthorized use is prohibited.</small>
+            </p>
+
+            <div class="social-media">
+                <h3>Follow Us</h3>
+                <a href="https://www.instagram.com" target="_blank">
+                    <img src="images/icons/instagram.png" alt="Instagram" title="Instagram">
+                </a>
+                <a href="https://x.com" target="_blank">
+                    <img src="images/icons/x.png" alt="X" title="X">
+                </a>
+                <a href="https://www.facebook.com" target="_blank">
+                    <img src="images/icons/fb.png" alt="Facebook" title="Facebook">
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="../javascript/cartCount.js"></script>
+</body>
+
+</html>

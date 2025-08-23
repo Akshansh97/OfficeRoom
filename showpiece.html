@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
+    <title>Show-Pieces | OfficeRoom</title>
+</head>
+
+<body>
+    <header>
+        <a href="OfficeRoom.html" class="animated-image"><img src="images/71AdfM+wxxL.jpg" alt="image" width="300"
+                height="200"></a>
+        <h1><a href="OfficeRoom.html" class="heading-link">OfficeRoom</a></h1>
+        <a id="top"></a>
+        <nav><a href="table.html#top" target="_self">Tables</a><a href="chair.html#top">Chairs</a><a
+                href="lamp.html#top">Desk Lamps</a><a href="light.html#top">Lights</a><a
+                href="wallpaper.html#top">Wallpapers</a><a href="showpiece.html#top">Show-Pieces</a><a
+                href="accesories.html#top">Accesories</a><a href="beanbag.html#top">Beanbags</a><a
+                href="custom.html#top" title="Build Your Own Office Room">Custom</a>
+        </nav>
+    </header>
+
+    <main id="main" class="main-content">
+        <div class="main-icons">
+            <a href="OfficeRoom.html" class="home-icon"><img src="images/icons/home.png" width="30" height="30"
+                    alt="home"></a>
+            <a href="#top" class="up-icon"><img src="images/icons/up.png" width="30" height="30" alt="top"></a>
+            <a href="cart.html" class="cart-icon">
+                <img src="images/icons/cart.png" width="30" height="30" alt="cart" title="Go to Cart">
+                <span id="cart-count" class="cart-count-bubble">0</span>
+            </a>
+        </div>
+
+        <section class="dropdown-section">
+            <h2>Search Show-Pieces</h2>
+            <div class="dropdown">
+                <form action="#grid" method="get" class="search-form"><!--# sends the input to the current page-->
+                    <input type="text" name="search" placeholder="Type product name..." list="product-list"
+                        class="custom-input" />
+                    <button type="submit" class="custom-button">Search</button>
+                    <datalist id="product-list">
+                        <option value="Miniature Models"></option>
+                        <option value="Abstract Sculptures"></option>
+                        <option value="Inspirational Figures"></option>
+                        <option value="Metal Art"></option>
+                        <option value="Desk Water Fountains"></option>
+                        <option value="Crystal Showpieces"></option>
+                        <option value="Vintage Decor Items"></option>
+                        <option value="Planters and Succulents"></option>
+                    </datalist>
+                </form>
+            </div>
+        </section>
+
+        <!-- <section class="dropdown-section">
+            <h2>Select Show-Piece Category</h2>
+            <div class="dropdown">
+                <select name="Showpiece Categories">
+                    <option value="" disabled selected>Select an item</option>
+                    <option value="Miniature Models">Miniature Models</option>
+                    <option value="Abstract Sculptures">Abstract Sculptures</option>
+                    <option value="Inspirational Figures">Inspirational Figures</option>
+                    <option value="Metal Art">Metal Art</option>
+                    <option value="Desk Water Fountains">Desk Water Fountains</option>
+                    <option value="Crystal Showpieces">Crystal Showpieces</option>
+                    <option value="Vintage Decor Items">Vintage Decor Items</option>
+                    <option value="Planters and Succulents">Planters and Succulents</option>
+                </select>
+            </div>
+        </section> -->
+
+        <div class="category">
+            <h2>Categories</h2>
+            <p>Pick a showpiece — let your space tell a story!</p>
+        </div>
+        <div class="product-grid" id="grid">
+            <div class="showpiece">
+                <h3>Miniature Models</h3><a href="#top"><img src="images/Showpieces/miniaturemodels.jpg"
+                        alt="Miniature Models" width="300" height="300" title="Search Miniature Models"></a>
+            </div>
+            <div class="showpiece">
+                <h3>Abstract Sculptures</h3><a href="#top"><img src="images/Showpieces/abstractsculptures.jpg"
+                        alt="Abstract Sculptures" width="300" height="300" title="Search Abstract Sculptures"></a>
+            </div>
+            <div class="showpiece">
+                <h3>Inspirational Figures</h3><a href="#top"><img src="images/Showpieces/inspirationalfigures.jpg"
+                        alt="Inspirational Figures" width="300" height="300" title="Search Inspirational Figures"></a>
+            </div>
+            <div class="showpiece">
+                <h3>Metal Art</h3><a href="#top"><img src="images/Showpieces/metalart.jpg" alt="Metal Art" width="300"
+                        height="300" title="Search Metal Art"></a>
+            </div>
+            <div class="showpiece">
+                <h3>Desk Water Fountains</h3><a href="#top"><img src="images/Showpieces/deskwaterfountains.jpg"
+                        alt="Desk Water Fountains" width="300" height="300" title="Search Desk Water Fountains"></a>
+            </div>
+            <div class="showpiece">
+                <h3>Crystal Showpieces</h3><a href="#top"><img src="images/Showpieces/crystalshowpieces.jpg"
+                        alt="Crystal Showpieces" width="300" height="300" title="Search Crystal Showpieces"></a>
+            </div>
+            <div class="showpiece">
+                <h3>Vintage Decor Items</h3><a href="#top"><img src="images/Showpieces/vintagedecoritems.jpg"
+                        alt="Vintage Decor Items" width="300" height="300" title="Search Vintage Decor Items"></a>
+            </div>
+            <div class="showpiece">
+                <h3>Planters and Succulents</h3><a href="#top"><img src="images/Showpieces/plantersandsucculents.jpg"
+                        alt="Planters and Succulents" width="300" height="300"
+                        title="Search Planters and Succulents"></a>
+            </div>
+        </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-icons">
+            <a href="OfficeRoom.html" class="home-icon"><img src="images/icons/home.png" width="30" height="30"
+                    alt="home"></a>
+            <a href="#top" class="up-icon"><img src="images/icons/up.png" width="30" height="30" alt="top"></a>
+        </div>
+        <p>&copy 2025 OfficeRoom, All rights reserved</p>
+        <div class="social-media">
+            <h3>Follow Us</h3><a href="https://www.instagram.com" target="_blank"><img src="images/icons/instagram.png"
+                    width="20" height="20" alt="Instagram" title="follow us on Instagram"></a><a href="https://x.com"
+                target="_blank"><img src="images/icons/x.png" width="20" height="20" alt="X"
+                    title="follow us on X"></a><a href="https://www.facebook.com" target="_blank"><img
+                    src="images/icons/fb.png" width="20" height="20" alt="Facebook" title="follow us on Facebook"></a>
+        </div>
+    </footer>
+    <script src="../javascript/cartCount.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
+    <script src="javascript\login.js" defer></script>
+    <title>Login | OfficeRoom</title>
+
+</head>
+
+<body class="register-body">
+    <div class="footer-icons">
+        <a href="OfficeRoom.html" class="home-icon"><img src="images/icons/home.png" width="30" height="30"
+                alt="home"></a>
+    </div>
+    <div class="content-wrapper">
+        <header class="register">
+            <p>Login User</p>
+        </header>
+        <main class="mainbody">
+            <!-- <form action="OfficeRoom.html" method="get" autocomplete="off" class="register-user">
+                <label for="username">Username*</label>
+                <input placeholder="Your Username" type="text" name="username" id="username" required>
+
+                <label for="email">Email*</label>
+                <input placeholder="Your email address" type="email" name="email" id="email" required>
+
+                <label for="password">Enter Password*</label>
+                <input placeholder="Your password" type="password" name="password" id="password">
+
+                <label for="confirmpassword">Confirm Password*</label>
+                <input placeholder="Confirm password" type="password" name="confirmpassword" id="confirmpassword">
+
+                <div class="form-buttons">
+                    <input type="submit" value="Login">
+                    <input type="reset" value="Reset">
+                </div>
+            </form> -->
+            <form method="post" autocomplete="off" class="register-user" id="loginForms">
+                <label for="username">Username*</label>
+                <input placeholder="Your Username" type="text" name="username" id="username" required>
+
+                <label for="email">Email*</label>
+                <input placeholder="Your email address" type="email" name="email" id="email" required>
+
+                <label for="password">Enter Password*</label>
+                <input placeholder="Your password" type="password" name="password" id="password" required>
+
+                <div class="form-buttons">
+                    <input type="submit" value="Login">
+                    <input type="reset" value="Reset">
+                </div>
+            </form>
+
+            <!-- Custom Alert -->
+            <div id="customAlert" class="custom-alert hidden">
+                <p id="alertMessage">This is a custom alert</p>
+                <button onclick="closeAlert()">OK</button>
+            </div>
+
+            <p>New User? <a href="register.html">Register</a></p>
+
+    </div>
+    <div class="asterisk">
+        <p>* fields are mandatory</p>
+    </div>
+
+    </main>
+</body>
+
+</html>

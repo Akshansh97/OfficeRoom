@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
+    <script src="javascript/register.js" defer></script>
+    <title>Register | OfficeRoom</title>
+</head>
+
+<body class="register-body">
+    <div class="footer-icons">
+        <a href="OfficeRoom.html" class="home-icon"><img src="images/icons/home.png" width="30" height="30"
+                alt="home"></a>
+    </div>
+    <div class="content-wrapper">
+        <header class="register">
+            <p>Register User</p>
+        </header>
+        <main class="mainbody">
+            <form action="login.html" method="get" autocomplete="off" class="register-user" id="registerusers">
+                <label for="firstname">First Name*</label>
+                <input placeholder="Your first name" type="text" name="firstname" id="firstname" required>
+
+                <label for="lastname">Last Name*</label>
+                <input placeholder="Your last name" type="text" name="lastname" id="lastname" required>
+
+                <label for="username">Username*</label>
+                <input placeholder="Type a unique username" type="text" name="username" id="username" required>
+
+                <label for="email">Email*</label>
+                <input placeholder="Your email address" type="email" name="email" id="email" required>
+
+                <label for="password">Enter Password*</label>
+                <input placeholder="Enter password" type="password" name="password" id="password">
+
+                <label for="confirmpassword">Confirm Password*</label>
+                <input placeholder="Confirm password" type="password" name="confirmpassword" id="confirmpassword">
+
+                <div class="form-buttons">
+                    <input type="submit" value="Register">
+                    <input type="reset" value="Reset">
+                </div>
+            </form>
+            <!-- Custom Alert -->
+            <div id="customAlert" class="custom-alert hidden" aria-live="polite">
+                <p id="alertMessage">This is a custom alert</p>
+                <button onclick="closeAlert()">OK</button>
+            </div>
+
+            <p>Already a customer? <a href="login.html">SignIn</a></p>
+
+        </main>
+    </div>
+    <div class="asterisk">
+        <p>* fields are mandatory</p>
+    </div>
+</body>
+
+</html>
