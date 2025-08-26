@@ -38,4 +38,20 @@ function winorlose(s) {
   } else return "LOSE";
 }
 
-console.log(winorlose("0101111111111"));
+//console.log(winorlose("0101111111111"));
+
+
+// const regex = /[amn]/; const string = "abcd";
+// console.log(regex.test(string));
+
+const str = "123-456-789";
+const result = str.split(/-/);
+//console.log(result);
+
+const regex = /[^abc]/;
+const string = "aemngq";
+//console.log(regex.test(string));
+
+var arr = [3,5,8];
+let plus_one = arr.map(n=> n+1);
+console.log(plus_one);

@@ -120,7 +120,7 @@ function updateQuantity(id, delta) {
       loadCart();
     })
     .catch(err => {
-      console.error('Failed to update quantity:', err);
+      console.error('Failed to update quantity:', err.JSON.stringify(err));
     });
 }
 
