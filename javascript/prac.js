@@ -11,7 +11,3 @@ var findRepeatedDnaSequences = function (s) {
   }
   return Array.from(repeated);
 };
-
-// Example usage:
-console.log(findRepeatedDnaSequences("AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT"));
-//
