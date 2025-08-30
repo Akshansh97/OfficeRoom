@@ -1,6 +1,6 @@
-# MyProject
+# OfficeRoom
 
-MyProject is a web-based application designed for office furniture and accessory management or e-commerce. The project is structured as a Node.js/Express application, with multiple HTML pages, client-side JavaScript, and a CSS stylesheet. It supports features such as product browsing, user authentication, cart and checkout processes, and customizable product views.
+OfficeRoom is a web-based application designed for office furniture and accessory management or e-commerce. The project is structured as a Node.js/Express application, with multiple HTML pages, client-side JavaScript, and a CSS stylesheet. It supports features such as product browsing, user authentication, cart and checkout processes, and customizable product views.
 
 > **Note:** This project is still a work in progress and continues to improve as I learn and develop new skills.
 >
@@ -74,8 +74,8 @@ MyProject is a web-based application designed for office furniture and accessory
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/Akshansh97/MyProject.git
-   cd MyProject
+   git clone https://github.com/Akshansh97/OfficeRoom.git
+   cd OfficeRoom
    ```
 
 2. **Install dependencies:**
@@ -118,4 +118,4 @@ Contributions are welcome! Please fork the repository and submit a pull request.
 _No license file is currently specified in this repository. Please add a LICENSE file to clarify usage rights._
 
 ---
-_Repository: [Akshansh97/MyProject](https://github.com/Akshansh97/MyProject)_
+_Repository: [Akshansh97/OfficeRoom](https://github.com/Akshansh97/OfficeRoom)_
