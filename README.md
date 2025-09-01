@@ -113,9 +113,5 @@ Contributions are welcome! Please fork the repository and submit a pull request.
 4. Push to your branch (`git push origin feature/YourFeature`)
 5. Open a pull request
 
-## License
-
-_No license file is currently specified in this repository. Please add a LICENSE file to clarify usage rights._
-
 ---
 _Repository: [Akshansh97/OfficeRoom](https://github.com/Akshansh97/OfficeRoom)_
